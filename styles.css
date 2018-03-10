@@ -1,0 +1,86 @@
+body{background:pink;}
+.flex_main{
+  display: flex;
+  flex-direction:row;
+}
+.profile_child{
+width:30%;
+background:#fff;
+padding:2%;
+margin:2%;
+}
+.content_child{
+  width:70%;
+  background:#fff;
+  padding:2%;
+  margin:2%;
+}
+.profile_pic{
+  width:200px;
+  height:auto;
+}
+.profile_circle{
+  border-radius:50%
+  border: 1px solid #ddd;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*small scale devices */
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .flex_main{
+    display: flex;
+  flex-direction :column;
+}
+.profile_child{
+width:100%;
+background:#fff;
+padding:2%;
+margin:2%;
+}
+.content_child{
+  width:100%;
+  background:#fff;
+  padding:2%;
+  margin:2%;
+}
+
+}
+/*medium scale devices */
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .flex_main{display: flex;
+  flex-direction:column;
+}
+.profile_child{
+width:96%;
+background:LIGHTBLUE;
+padding:2%;
+margin:2%;
+}
+.content_child{
+  width:100%;
+  background:LIGHTBLUE;
+  padding:2%;
+  margin:2%;
+}
+
+}
+/*tablets */
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  .flex_main{display: flex;
+  flex-direction:column;
+}
+.profile_child{
+width:96%;
+background:LIGHTGREEN;
+padding:2%;
+margin:2%;
+}
+.content_child{
+  width:100%;
+  background:LIGHTGREEN;
+  padding:2%;
+  margin:2%;
+}
+
+}
